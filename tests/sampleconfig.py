@@ -19,4 +19,4 @@ SAMPLE_VIDEOS = [os.path.join(SAMPLE_VIDEO_FOLDER, entry) for entry in os.listdi
 SAMPLE_AUDIOS = [os.path.join(SAMPLE_AUDIO_FOLDER, entry) for entry in os.listdir(SAMPLE_AUDIO_FOLDER)]
 
 if not 'CREDENTIAL_FILE' in globals():
-    CREDENTIAL_FILE = recipe.temppath.TempFilePath()
+    CREDENTIAL_FILE = recipe.temppath.tempfilepath()
