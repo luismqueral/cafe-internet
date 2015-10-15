@@ -5,7 +5,7 @@ import tests.config as conf
 __author__ = 'elon'
 
 
-recipes = recipe.RecipeManager()
+recipes = recipe.RecipeManager('train_vid_bot')
 
 class TestHamburgerMusic(TestCase):
 

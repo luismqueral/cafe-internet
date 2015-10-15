@@ -1,6 +1,5 @@
 import os
 from random import sample
-import sys
 
 import recipe.rcp
 

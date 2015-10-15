@@ -5,7 +5,7 @@ import tests.config as conf
 
 import recipe
 
-recipes = recipe.RecipeManager()
+recipes = recipe.RecipeManager('train_vid_bot')
 
 __author__ = 'elon'
 

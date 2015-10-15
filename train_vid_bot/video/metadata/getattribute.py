@@ -1,6 +1,5 @@
 import subprocess
 import json
-import io
 
 import recipe.rcp
 

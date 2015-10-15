@@ -3,7 +3,7 @@ from unittest import TestCase
 import httplib2
 
 import tests.config as conf
-from recipes.api.oauth import OAuth
+from train_vid_bot.api.oauth import OAuth
 import recipe.temppath
 
 __author__ = 'elon'
@@ -13,7 +13,7 @@ class TestOAuth(TestCase):
     SCOPE = "https://www.googleapis.com/auth/youtube.upload"
 
     def setUp(self):
-        self.temppath = recipe.temppath.TempFilePath()
+        self.temppath = recipe.temppath.tempfilepath()
         self.oauth = OAuth(conf.GOOGLE_CLIENT_ID, conf.GOOGLE_CLIENT_SECRET, self.temppath)
 
     def test_get_scope(self):

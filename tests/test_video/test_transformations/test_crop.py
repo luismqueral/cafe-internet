@@ -2,11 +2,11 @@ from unittest import TestCase
 
 import tests.config as conf
 import recipe
-from recipes.video.metadata import getattribute
+from train_vid_bot.video.metadata import getattribute
 
 __author__ = 'elon'
 
-recipes = recipe.RecipeManager()
+recipes = recipe.RecipeManager('train_vid_bot')
 
 
 class TestCrop(TestCase):

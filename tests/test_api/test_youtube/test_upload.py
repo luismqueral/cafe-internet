@@ -4,10 +4,10 @@ from unittest import TestCase
 
 import tests.config as conf
 import recipe
-from recipes.api.oauth import OAuth
+from train_vid_bot.api.oauth import OAuth
 import recipe.temppath
 
-recipes = recipe.RecipeManager()
+recipes = recipe.RecipeManager('train_vid_bot')
 
 
 class TestYoutube(TestCase):

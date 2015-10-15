@@ -1,5 +1,4 @@
 import httplib2
-import oauth2client.client
 import googleapiclient.discovery
 import googleapiclient.http
 
